@@ -1,0 +1,39 @@
+.formulario{
+    background-color: $color2;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/** Nosotros **/
+
+.BoxC{
+    background-color: $color2;
+    height: 200px;
+    padding: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.imgNosotros{
+    width: 100%;
+    padding: 0px;
+}
+
+.video1{
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.BoxC h2{
+    font-family: verdana;
+    font-weight: 00;
+}

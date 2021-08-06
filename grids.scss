@@ -1,0 +1,71 @@
+.grid{
+    display: grid;
+    
+
+    grid-template-areas: 
+    "nosotros  opinion"
+    "productos  opinion";
+
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 70%  30%;
+    column-gap: 15px;
+    row-gap: 15px;
+    margin: 50px 50px;
+}
+
+#nosotros {
+    grid-area: nosotros;
+    width: $width1;
+    border: solid 1px $color2;
+    border-radius: 5px;
+    padding: 5px 70px;
+    overflow: hidden;
+
+    img{
+    float: left;
+    height: 150px;
+    width: 400px;
+    }
+
+    p{
+    padding-left: 30px;
+    }
+}
+
+#productos {
+    grid-area: productos;
+    width: $width1;
+    border: solid 1px $color2;
+    border-radius: 5px;
+    padding: 5px 70px;
+    overflow: hidden;
+
+
+    
+    img{
+    float: right;
+    position: relative;
+    height: 150px;
+    width: 400px;
+    margin-right: 10px;
+    }
+}
+
+#opinion{
+    grid-area: opinion;
+    background-color: $color2;
+    border-radius: 5px;
+    padding: 30px;
+    overflow: hidden;
+  
+    img{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    }
+}
+
+div.grid h3{
+    margin: 20px;
+}
