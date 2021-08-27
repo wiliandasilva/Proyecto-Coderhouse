@@ -1,7 +1,12 @@
 div#navegador {
     width: 100%;
-    background-color: rgb(38, 36, 43);
+    background-color: black;
   }
+
+#navegador img{
+  height: 45px;
+  width: 130px;
+}
 
   ul{
     list-style: none;

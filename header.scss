@@ -1,21 +1,13 @@
 .Cabeza{
     background-color: $color1;
-    height: 220px;
+    height: 250px;
     margin-bottom: 0;  
-   
+  
    
     &__logo{
         text-align: center;
         position: relative;
-
-        &--redes{
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-            font-size: 18px;
-
-
+        padding-top: 40px;
         }
-    }
 }
 
